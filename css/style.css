@@ -9,7 +9,7 @@
 
 body {
     font-family: "Monserrat";
-    background: #171836;
+    background: #f7f7f4;
 }
 
 ul {
@@ -42,13 +42,13 @@ a {
 }
 
 .header__logo-link {
-    color: #fff;
+    color: #171836;
     font-size: 32px;
     font-weight: bold;
 }
 
 .header__link {
-    color: #fff;
+    color: #171836;
     font-size: 20px;
 }
 
@@ -72,7 +72,7 @@ a {
 
 .header__title {
     font-size: 32px;
-    color: #fff;
+    color: #171836;
     margin-bottom: 12px;
 }
 
@@ -81,7 +81,7 @@ a {
     margin: 0 auto;
     font-size: 20px;
     margin-bottom: 20px;
-    color: #fff;
+    color: #171836;
     opacity: 0.8;
 }
 
@@ -92,15 +92,23 @@ a {
 }
 
 .header__btn {
-    color: seashell;
+    color: #171836;
     font-size: 22px;
 }
 
-.search,
+.search__form {
+    padding: 5px 10px;
+    border: 2px solid #171836;
+    border-radius: 5px;
+}
+
+.searchLine,
 .inputBtn {
     min-height: 50px;
     padding: 8px 15px;
     font-size: 20px;
+    border: none;
+    outline: none;
 }
 
 .header__banner {
@@ -124,7 +132,7 @@ a {
 
 .feature__title {
     font-size: 28px;
-    color: seashell;
+    color: #171836;
     text-align: center;
     margin-bottom: 80px;
 }
@@ -146,16 +154,16 @@ a {
 
 .features__icon {
     font-size: 40px;
-    color: #F08F92;
+    color: #1f1414;
 }
 
 .features__span {
     font-size: 20px;
-    color: rgba(255, 255, 255, 0.7);
+    color: #171836;
 }
 
 .features__info {
-    color: rgba(255, 255, 255, 0.6);
+    color: #1f1414;
     max-width: 300px;
     margin: 0 auto;
 }
@@ -165,7 +173,7 @@ form div {
 }
 
 form label {
-    color: seashell;
+    color: #171836;
 }
 
 form input {
@@ -190,7 +198,7 @@ form input {
     max-width: 350px;
     width: 100%;
     padding: 10px 15px;
-    box-shadow: 5px 5px 10px coral;
+    box-shadow: 5px 5px 10px #171836;
     transition: .4s;
 }
 
@@ -198,7 +206,7 @@ form input {
     background: #fff;
 }
 .category__box:hover:nth-child(2) {
-    background: rgba(255, 255, 255, 0.6);
+    background: grey;
 }
 .category__box:hover:nth-child(3) {
     background: #000;
@@ -219,19 +227,19 @@ form input {
 }
 
 .category__box-title {
-    color: #fff;
+    color: #171836;
     margin-bottom: 5px;
     transition: .4s;
 }
 
 .category__box-txt {
-    color: rgba(255, 255, 255, 0.4);
+    color: #1f1414;
     transition: .6s;
     margin-bottom: 5px;
 }
 
 .category__box-btn {
-    color: #fff;
+    color: #171836;
     transition: .4s;
     font-size: 18px;
 }
@@ -257,7 +265,7 @@ form input {
     gap: 25px;
     padding: 10px 15px;
     max-width: 350px;
-    box-shadow: 5px 5px 10px coral;
+    box-shadow: 5px 5px 10px #171836;
     flex-grow: 1;
 }
 
@@ -281,13 +289,13 @@ form input {
 
 .new__name {
     font-size: 20px;
-    color: #fff;
+    color: #171836;
     margin-bottom: 5px;
 }
 
 .new__location,
 .new__checkTime {
-    color: rgba(255, 255, 255, 0.8);
+    color: #1f1414;
     font-size: 18px;
     margin-bottom: 3px;
 }
@@ -328,13 +336,13 @@ form input {
     margin-bottom: 20px;
     font-size: 1.375rem;
     line-height: 2rem;
-    color: #fff;
+    color: #1baf5e;
     font-weight: 700;
     width: 100%;
 }
 
 .contacts__span {
-    color: rgba(255, 255, 255, 0.8);
+    color: #1f1414;
     margin-bottom: 10px;
 }
 
@@ -345,6 +353,7 @@ form input {
     font-size: 18px;
     border-radius: 5px;
     border: none;
+    border: 2px solid #171836;
 }
 
 .contacts__btn {
@@ -354,8 +363,8 @@ form input {
     max-width: 400px;
     width: 100%;
     min-height: 50px;
-    color: #171836;
-    background: #fff;
+    color: #fff;
+    background: #171836;
     border-radius: 5px;
     transition: .4s;
     margin-top: 20px;
@@ -363,7 +372,7 @@ form input {
 
 .contacts__btn:hover {
     background: inherit;
-    color: #fff;
+    color: #171836;
 }
 
 
@@ -376,7 +385,7 @@ form input {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: ivory;
+    color: #171836;
 }
 
 /* footer end */
