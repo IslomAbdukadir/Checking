@@ -191,20 +191,48 @@ form input {
     width: 100%;
     padding: 10px 15px;
     box-shadow: 5px 5px 10px coral;
+    transition: .4s;
+}
+
+.category__box:hover:nth-child(1) {
+    background: #fff;
+}
+.category__box:hover:nth-child(2) {
+    background: rgba(255, 255, 255, 0.6);
+}
+.category__box:hover:nth-child(3) {
+    background: #000;
+}
+
+.category__box:hover .category__box-title,
+.category__box:hover .category__box-txt,
+.category__box:hover .category__box-btn {
+    color: #171836;
+}
+
+.category__box:hover .white {
+    color: #fff;
+}
+
+.category__box:hover .category__box-btn {
+    text-decoration: underline;
 }
 
 .category__box-title {
     color: #fff;
     margin-bottom: 5px;
+    transition: .4s;
 }
 
 .category__box-txt {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.4);
+    transition: .6s;
     margin-bottom: 5px;
 }
 
 .category__box-btn {
     color: #fff;
+    transition: .4s;
     font-size: 18px;
 }
 
