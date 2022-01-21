@@ -102,6 +102,10 @@ a {
     border-radius: 5px;
 }
 
+.fa-map-marker-alt:before {
+    content: "";
+}
+
 .searchLine,
 .inputBtn {
     min-height: 30px;
@@ -442,10 +446,14 @@ header {
 .company__phone,
 .company__email {
     margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
 }
 
 .company__desc {
     letter-spacing: 1.1px;
+    font-family: sans-serif;
+    font-size: 18px;
 }
 
 .company__btns {
