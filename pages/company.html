@@ -17,36 +17,69 @@
                 <div class="header__logo">
                     <a href="../index.html" class="header__logo-link">Logo</a>
                 </div>
-                <ul class="header__list">
-                    <li class="header__item">
-                        <a href="../index.html#feature" class="header__link">Приемущества</a>
-                    </li>
-                    <li class="header__item">
-                        <a href="../index.html#category" class="header__link">Категории</a>
-                    </li>
-                    <li class="header__item">
-                        <a href="../index.html#contacts" class="header__link">Контакты</a>
-                    </li>
-                </ul>
+                <div class="search__form">
+                    <input type="search" name="search" id="search" class="searchLine" inputmode="none">
+                    <a href="#!" class="header__btn inputBtn"><i class="fas fa-search"></i></a>
+                </div>
             </div>
         </nav>
     </header>
     <main>
-        <section class="search">
-            <div class="container search__content">
-                <div class="search__companies">
-                    <div class="search__company">
-                        <h2 class="search__company-name">ООО "Контракт Авто-Трейд"</h2>
-                        <p class="search__company-address">
-                            119034, город Москва, Всеволожский переулок, дом 2 строение 2, офис 01
-                        </p>
-                        <p class="search__company-inn">
-                            ИНН 7702233520
-                        </p>
-                        <p class="search__company-date">
-                            ДАТА РЕГИСТРАЦИИ 21 сентября 1999 г.
-                        </p>
-                    </div>
+        <section class="company">
+            <div class="container">
+                <h2 class="company__title">Информация о компании</h2>
+                <h2 class="company__name">ООО "Контракт Авто-Трейд"</h2>
+                <p class="company__address">
+                    Адрес: 119034, город Москва, Всеволожский переулок, дом 2 строение 2, офис 01
+                </p>
+                <p class="company__phone">
+                    Номер телефона: +7(869)xxx-xx-xx
+                </p>
+                <p class="company__email">
+                    Почтовый адрес: avtotrade@gmail.com
+                </p>
+                <h2 class="company__name">Краткая справка</h2>
+                <p class="company__desc">
+                    ООО "КОНТРАКТ АВТО-ТРЕЙД" было зарегистрировано 21 сентября 1999 (существует 22
+                    года) под ИНН 7702233520 и ОГРН 1027739696533. Юридический адрес 119034, Москва, Всеволожский
+                    переулок, дом 2, строение 2, офис 01. Руководитель ЧЕСНОКОВ АНДРЕЙ АЛЕКСАНДРОВИЧ. Основной вид
+                    деятельности ООО "КОНТРАКТ АВТО-ТРЕЙД": 86.23 Стоматологическая практика. Телефон, адрес электронной
+                    почты, адрес официального сайта и другие контактные данные ООО "КОНТРАКТ АВТО-ТРЕЙД" отсутствуют в
+                    ЕГРЮЛ.
+                </p>
+                <div class="company__btns">
+                    <a href="#!" class="company__btn contacts__btn complaint">Оставить жалобу</a>
+                    <a href="#!" class="company__btn contacts__btn investigation">Заказать расследование</a>
+                </div>
+                <div class="complaint__content">
+                    <h2 class="complaint__title company__name">Оставить жалобу</h2>
+                    <form action="" class="contacts__form complaint__form">
+                        <p class="contacts__span">ИМЯ:</p>
+                        <input type="txt">
+                        <p class="contacts__span">ДОЛЖНОСТЬ:</p>
+                        <input type="txt">
+                        <p class="contacts__span">ЭЛЕКТРОННАЯ ПОЧТА:</p>
+                        <input type="email">
+                        <p class="contacts__span">ТЕЛЕФОН:</p>
+                        <input type="txt">
+                        <!-- <a href="#!" class="contacts__btn">Заказать доступ</a> -->
+                        <input type="submit" class="contacts__btn" value="Оставить жалобу">
+                    </form>
+                </div>
+                <div class="investigation__content">
+                    <h2 class="complaint__title company__name">Заказать расследование</h2>
+                    <form action="" class="contacts__form complaint__form">
+                        <p class="contacts__span">ИМЯ:</p>
+                        <input type="txt">
+                        <p class="contacts__span">ДОЛЖНОСТЬ:</p>
+                        <input type="txt">
+                        <p class="contacts__span">ЭЛЕКТРОННАЯ ПОЧТА:</p>
+                        <input type="email">
+                        <p class="contacts__span">ТЕЛЕФОН:</p>
+                        <input type="txt">
+                        <!-- <a href="#!" class="contacts__btn">Заказать доступ</a> -->
+                        <input type="submit" class="contacts__btn" value="Заказать расследование">
+                    </form>
                 </div>
             </div>
         </section>
@@ -66,7 +99,8 @@
                         <input type="email">
                         <p class="contacts__span">ТЕЛЕФОН:</p>
                         <input type="txt">
-                        <a href="#!" class="contacts__btn">Заказать доступ</a>
+                        <!-- <a href="#!" class="contacts__btn">Заказать доступ</a> -->
+                        <input type="submit" class="contacts__btn" value="Заказать доступ">
                     </form>
                     <div class="contacts__banner">
                         <img src="../img/dis.png" alt="" class="contacts__banner-img">
@@ -76,7 +110,7 @@
         </section>
     </main>
     <footer class="footer">
-        <p class="footer__txt">&copy; 2021. All rights recerved.</p>
+        <p class="footer__txt">&copy;2021. All rights recerved.</p>
     </footer>
 
     <script src="../js/jQuery.js"></script>

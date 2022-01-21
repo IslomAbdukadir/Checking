@@ -104,11 +104,12 @@ a {
 
 .searchLine,
 .inputBtn {
-    min-height: 50px;
+    min-height: 30px;
     padding: 8px 15px;
     font-size: 20px;
     border: none;
     outline: none;
+    background: inherit;
 }
 
 .header__banner {
@@ -205,9 +206,11 @@ form input {
 .category__box:hover:nth-child(1) {
     background: #fff;
 }
+
 .category__box:hover:nth-child(2) {
     background: grey;
 }
+
 .category__box:hover:nth-child(3) {
     background: #000;
 }
@@ -318,6 +321,7 @@ form input {
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 .contacts__banner {
@@ -368,6 +372,7 @@ form input {
     border-radius: 5px;
     transition: .4s;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .contacts__btn:hover {
@@ -389,3 +394,85 @@ form input {
 }
 
 /* footer end */
+
+/* search start */
+
+.search__companies {
+    padding: 15px 20px;
+    border: 2px solid #171836;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.search__companies-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.search__company-name {
+    font-size: 24px;
+    color: #1baf5e;
+    margin-bottom: 8px;
+}
+
+.search__company p {
+    margin-bottom: 5px;
+}
+
+/* search end */
+
+/* company start */
+
+header {
+    position: relative;
+}
+
+.company__title {
+    font-size: 36px;
+    margin-bottom: 21px;
+}
+
+.company__name {
+    margin-bottom: 10px;
+}
+
+.company__address,
+.company__phone,
+.company__email {
+    margin-bottom: 10px;
+}
+
+.company__desc {
+    letter-spacing: 1.1px;
+}
+
+.company__btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* company end */
+
+/* complaint start */
+
+.complaint__content,
+.investigation__content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.complaint__form {
+    padding-left: 75px;
+}
