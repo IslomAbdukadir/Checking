@@ -1,150 +1,173 @@
-@media (max-width: 1024px) {
-    .container {
-        max-width: 920px;
-    }
-
-    .features__box {
-        max-width: 290px;
-    }
-
-    .features__span {
-        font-size: 18px;
-    }
-
-    .category__box {
-        max-width: 290px;
-    }
-
-    .new__boxes {
-        justify-content: center;
-    }
-
-    .feature__title {
-        margin-bottom: 50px;
-    }
-}
-
 /* @media (max-width: 992px) {} */
-@media (max-width: 768px) {
-    .container {
-        max-width: 720px;
-    }
-
-    .searchLine,
-    .inputBtn {
-        max-width: 220px;
-    }
-
-    .category__box {
-        max-width: 225px;
-    }
-
-    .features__boxes {
-        gap: 30px;
-    }
-}
 
 /* @media (max-width: 736px) {} */
+
 /* @media (max-width: 734px) {} */
-@media (max-width: 684px) {
-    .container {
-        max-width: 650px;
-    }
-
-    .searchLine,
-    .inputBtn {
-        max-width: 190px;
-    }
-
-    .category__boxes {
-        justify-content: center;
-        gap: 50px;
-    }
-    .category__box {
-        max-width: 265px;
-    }
-}
 
 /* @media (max-width: 667px) {} */
-@media (max-width: 576px) {
+
+/* @media (max-width: 412px) {} */
+
+/* @media (max-width: 360px) {} */
+
+@media (max-width: 1024px) {
     .container {
-        max-width: 550px;
+      max-width: 920px;
     }
+  
+    .features__box {
+      max-width: 290px;
+    }
+  
+    .features__span {
+      font-size: 18px;
+    }
+  
+    .category__box {
+      max-width: 290px;
+    }
+  
+    .new__boxes {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+  
+    .feature__title {
+      margin-bottom: 50px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  
+    .searchLine,
+    .inputBtn {
+      max-width: 220px;
+    }
+  
+    .category__box {
+      max-width: 225px;
+    }
+  
+    .features__boxes {
+      gap: 30px;
+    }
+  }
+  
+  @media (max-width: 684px) {
+    .container {
+      max-width: 650px;
+    }
+  
+    .searchLine,
+    .inputBtn {
+      max-width: 190px;
+    }
+  
+    .category__boxes {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      gap: 50px;
+    }
+  
+    .category__box {
+      max-width: 265px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .container {
+      max-width: 550px;
+    }
+  
     .header__banner,
     .contacts__banner {
-        display: none;
+      display: none;
     }
-
+  
     .header__link {
-        font-size: 18px;
+      font-size: 18px;
     }
-
+  
     .features__boxes {
-        justify-content: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
     }
-
+  
     .contacts__form {
-        max-width: 400px;
+      max-width: 400px;
     }
-
+  
     .complaint__form {
-        padding-left: unset;
+      padding-left: unset;
     }
-}
-@media (max-width: 414px) {
+  }
+  
+  @media (max-width: 414px) {
     .container {
-        max-width: 400px;
+      max-width: 400px;
     }
-
+  
     .header__list {
-        display: none;
+      display: none;
     }
-
+  
     .header__nav .container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 20px 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      padding: 20px 0;
     }
-
+  
     .header__content .container {
-        height: 60vh;
+      height: 60vh;
     }
-
+  
     .navSearch {
-        display: none;
+      display: none;
     }
-
+  
     .contacts__btn {
-        text-align: center;
+      text-align: center;
     }
-
+  
     .search__company-name {
-        font-size: 22px;
+      font-size: 22px;
     }
-}
-/* @media (max-width: 412px) {} */
-@media (max-width: 375px) {
+  }
+  
+  @media (max-width: 375px) {
     .container {
-        max-width: 320px;
+      max-width: 320px;
     }
-
+  
     .header__title {
-        font-size: 28px;
+      font-size: 28px;
     }
-
+  
     .header__txt {
-        font-size: 18px;
+      font-size: 18px;
     }
-}
-/* @media (max-width: 360px) {} */
-@media (max-width: 320px) {
+  }
+  
+  @media (max-width: 320px) {
     .container {
-        max-width: 300px;
+      max-width: 300px;
     }
-
+  
     .company__title {
-        font-size: 21px;
-        text-align: center;
+      font-size: 21px;
+      text-align: center;
     }
-}
+  }
