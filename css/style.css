@@ -381,6 +381,7 @@ form input {
 
 .contacts__btn:hover {
     background: inherit;
+    transform: scale(1.1);
     color: #171836;
 }
 
@@ -471,7 +472,8 @@ header {
 .complaint__content,
 .investigation__content,
 .comment__content,
-.comment__content2 {
+.comment__content2,
+.find__content {
     position: fixed;
     top: 0;
     left: 0;
@@ -815,4 +817,24 @@ body {
     .reply-list .comment-box {
         width: 320px;
     }
+}
+
+.find .container {
+    background-color: #1baf5e;
+    padding: 50px 0;
+    border-radius: 5px;
+}
+
+.find__title {
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.find__txt {
+    color: #fff;
+    text-align: center;
+}
+
+.find__btn:hover {
+    color: #fff;
 }
