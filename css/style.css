@@ -492,6 +492,10 @@ header {
     z-index: 99;
 }
 
+.cookies__content .container {
+    overflow-y: scroll;
+}
+
 .complaint__form {
     padding-left: 75px;
 }
