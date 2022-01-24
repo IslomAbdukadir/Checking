@@ -3,6 +3,11 @@ $(".complaint__content").hide();
 $(".comment__content").hide();
 $(".comment__content2").hide();
 $(".find__content").hide();
+$(".cookies__content").hide();
+
+$(".cookies").click(function () { 
+    $(".cookies__content").show();
+});
 
 $(".complaint").click(function () { 
     $(".complaint__content").show();
@@ -25,5 +30,17 @@ $(".exit").click(function () {
     $(".comment__content").hide();
     $(".comment__content2").hide();
     $(".find__content").hide();
+    $(".cookies__content").hide();
+});
+$(".exit__cookies").click(function () { 
+    $("#cookies").hide();
 });
 
+/* Cookies */
+$(document).ready(function(){
+    $("#cookies").addClass("display");
+     $("#close-cookies").click(function(){ 
+      event.preventDefault();
+      $("#cookies").addClass("close-cookies");
+    });
+  });

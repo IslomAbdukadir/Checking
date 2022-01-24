@@ -225,7 +225,8 @@ form input {
     color: #171836;
 }
 
-.category__box:hover .white {
+.category__box:hover .white,
+.company__btns:hover .white {
     color: #fff;
 }
 
@@ -442,6 +443,7 @@ header {
 .company__name {
     margin-bottom: 10px;
     text-align: center;
+    color: #171836;
 }
 
 .company__address,
@@ -450,12 +452,14 @@ header {
     margin-bottom: 10px;
     font-family: sans-serif;
     font-size: 20px;
+    color: #171836;
 }
 
 .company__desc {
     letter-spacing: 1.1px;
     font-family: sans-serif;
     font-size: 18px;
+    color: #171836;
 }
 
 .company__btns {
@@ -473,7 +477,8 @@ header {
 .investigation__content,
 .comment__content,
 .comment__content2,
-.find__content {
+.find__content,
+.cookies__content {
     position: fixed;
     top: 0;
     left: 0;
@@ -546,37 +551,6 @@ header {
 
 /* comment start */
 
-/**
- * Oscuro: #283035
- * Azul: #03658c
- * Detalle: #c7cacb
- * Fondo: #dee1e3
- ----------------------------------*/
-* {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-a {
-    color: #03658c;
-    text-decoration: none;
-}
-
-ul {
-    list-style-type: none;
-}
-
-body {
-    font-family: 'Roboto', Arial, Helvetica, Sans-serif, Verdana;
-    background: #dee1e3;
-}
-
-/** ====================
-* Lista de Comentarios
-=======================*/
 .comments-container {
     margin: 60px auto 15px;
     width: 768px;
@@ -599,7 +573,6 @@ body {
 }
 
 /**
-* Lineas / Detalles
 -----------------------*/
 .comments-list:before {
     content: '';
@@ -661,9 +634,6 @@ body {
     margin-top: 15px;
 }
 
-/**
-* Avatar
----------------------------*/
 .comments-list .comment-avatar {
     width: 65px;
     height: 65px;
@@ -697,9 +667,8 @@ body {
     clear: both;
 }
 
-/**
-* Caja del Comentario
----------------------------*/
+/*  */
+
 .comments-list .comment-box {
     width: 680px;
     float: right;
@@ -838,3 +807,174 @@ body {
 .find__btn:hover {
     color: #fff;
 }
+
+.footer__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer__link {
+    text-decoration: underline;
+    color: #000;
+}
+
+.footer__txt {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*  */
+
+#cookies {
+    display: none;
+    width: 100%;
+    height: 100px;
+    padding-top: 30px;
+    position: fixed;
+    background: #fcf8e3;
+    border-bottom: 2px solid #fbeed5;
+    color: #c09853;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+#cookies>p {
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+
+#cookies div {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#cookies div p a{
+    color: #332b17;
+    text-decoration: none;
+}
+
+#cookies.display {
+    display: block;
+
+    /* Cross browser animation */
+    -webkit-animation: cookies 1s 1;
+    /* Chrome, Safari 5+ */
+    -moz-animation: cookies 1s 1;
+    /* Firefox 5-15 */
+    -ms-animation: cookies 1s 1;
+    /* IE9 */
+    -o-animation: cookies 1s 1;
+    /* Opera 12.00 */
+    animation: cookies 1s 1;
+    /* Chrome, Firefox 16+, IE 10+, Opera 12.10+ */
+}
+
+@keyframes cookies {
+    0% {
+        -webkit-transform: translate3d(0, -100px, 0);
+        /* Safari & Chrome */
+        -moz-transform: translate3d(0, -100px, 0);
+        /* Firefox */
+        -ms-transform: translate3d(0, -100px, 0);
+        /* IE9 */
+        -o-transform: translate3d(0, -100px, 0);
+        /* Opera */
+        transform: translate3d(0, -100px, 0);
+    }
+
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        /* Safari & Chrome */
+        -moz-transform: translate3d(0, 0, 0);
+        /* Firefox */
+        -ms-transform: translate3d(0, 0, 0);
+        /* IE9 */
+        -o-transform: translate3d(0, 0, 0);
+        /* Opera */
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@-webkit-keyframes cookies {
+    0% {
+        -webkit-transform: translate3d(0, -100px, 0);
+        /* Safari & Chrome */
+        -moz-transform: translate3d(0, -100px, 0);
+        /* Firefox */
+        -ms-transform: translate3d(0, -100px, 0);
+        /* IE9 */
+        -o-transform: translate3d(0, -100px, 0);
+        /* Opera */
+        transform: translate3d(0, -100px, 0);
+    }
+
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        /* Safari & Chrome */
+        -moz-transform: translate3d(0, 0, 0);
+        /* Firefox */
+        -ms-transform: translate3d(0, 0, 0);
+        /* IE9 */
+        -o-transform: translate3d(0, 0, 0);
+        /* Opera */
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@-moz-keyframes cookies {
+    0% {
+        -webkit-transform: translate3d(0, -100px, 0);
+        /* Safari & Chrome */
+        -moz-transform: translate3d(0, -100px, 0);
+        /* Firefox */
+        -ms-transform: translate3d(0, -100px, 0);
+        /* IE9 */
+        -o-transform: translate3d(0, -100px, 0);
+        /* Opera */
+        transform: translate3d(0, -100px, 0);
+    }
+
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        /* Safari & Chrome */
+        -moz-transform: translate3d(0, 0, 0);
+        /* Firefox */
+        -ms-transform: translate3d(0, 0, 0);
+        /* IE9 */
+        -o-transform: translate3d(0, 0, 0);
+        /* Opera */
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@-o-keyframes cookies {
+    0% {
+        -webkit-transform: translate3d(0, -100px, 0);
+        /* Safari & Chrome */
+        -moz-transform: translate3d(0, -100px, 0);
+        /* Firefox */
+        -ms-transform: translate3d(0, -100px, 0);
+        /* IE9 */
+        -o-transform: translate3d(0, -100px, 0);
+        /* Opera */
+        transform: translate3d(0, -100px, 0);
+    }
+
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        /* Safari & Chrome */
+        -moz-transform: translate3d(0, 0, 0);
+        /* Firefox */
+        -ms-transform: translate3d(0, 0, 0);
+        /* IE9 */
+        -o-transform: translate3d(0, 0, 0);
+        /* Opera */
+        transform: translate3d(0, 0, 0);
+    }
+}
+
