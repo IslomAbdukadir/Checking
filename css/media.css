@@ -42,6 +42,38 @@
     .container {
       max-width: 720px;
     }
+
+    .header__list,
+    .header__list2 {
+      display: none;
+    }
+  
+    .header__menu {
+      height: 4px;
+      width: 50px;
+      background: #000;
+      position: relative;
+      display: block;
+    }
+  
+    .header__menu::before,
+    .header__menu::after {
+      position: absolute;
+      content: "";
+      height: 4px;
+      width: 50px;
+      top: 15px;
+      left: 0;
+      background: #000;
+    }
+  
+    .header__menu::before {
+      top: -15px;
+    }
+  
+    .exit {
+      display: inline-block;
+    }
   
     .searchLine,
     .inputBtn {
@@ -126,7 +158,7 @@
               align-items: center;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center;
+              justify-content: space-between;
       padding: 20px 0;
     }
   
